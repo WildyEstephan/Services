@@ -18,11 +18,13 @@
                 </span>
             </xpath>
             <xpath expr="//page[@name='inventory']" position="after">
-                <field name="component_ids">
-                    <tree editable="bottom">
-                        <field name="part_id"/>
-                    </tree>
-                </field>
+                <page name="components" string="Components">
+                    <field name="component_ids">
+                        <tree editable="bottom">
+                            <field name="part_id"/>
+                        </tree>
+                    </field>
+                </page>
             </xpath>
         </field>
     </record>
