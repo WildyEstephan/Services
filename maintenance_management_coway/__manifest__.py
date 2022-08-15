@@ -6,7 +6,7 @@
     "license": "AGPL-3",
     "website": "https://www.coway.com.do/",
     "version": "15.0.1.0.0",
-    "depends": ["base"],
+    "depends": ["product"],
     "application": True,
     "category": "Maintenance",
     "data": [
